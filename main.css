@@ -2,6 +2,7 @@ header, main {
     display: inline-block;
     width: 800px; 
     margin-left: calc(50% - 400px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 img {
     float: left;
@@ -18,7 +19,14 @@ a {
     margin-left: 20px;
     text-decoration: none;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 5px;
+}
+a:hover {
+    border-bottom: 2px solid red;
+}
+a:first-child
+ {
+    border-bottom: 2px solid red;
 }
 main {
     margin-top: 100px;
